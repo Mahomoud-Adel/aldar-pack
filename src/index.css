@@ -4,6 +4,10 @@
   font-family: "Cairo", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header-container {
   background-image: url("../public/hero.jpg");
   background-size: cover;
