@@ -58,7 +58,7 @@ const Header = () => {
             </div>
 
             {/* Hero Content Area */}
-            <div className="relative z-20 container mx-auto px-4 flex flex-col items-center justify-center h-full text-center pt-20">
+            <div className="relative z-20  container mx-auto px-4 flex flex-col items-center justify-center h-full text-center pt-30">
                 <span className="text-amber-400 font-bold tracking-wider mb-4 uppercase text-sm md:text-base border border-amber-400/50 rounded-full px-4 py-1 bg-amber-400/10">مطبعة أوفست احترافية</span>
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight drop-shadow-lg">
                     حلول الطباعة المتكاملة <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-500">بجودة استثنائية</span>
