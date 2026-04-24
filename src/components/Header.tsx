@@ -40,7 +40,7 @@ const Header = () => {
                     </button>
 
                     {/* Logo */}
-                    <div className="w-16 h-16 md:w-24 md:h-24 flex-shrink-0 bg-white rounded-full p-1 shadow-[0_0_20px_rgba(255,255,255,0.2)] cursor-pointer relative z-50 transition-transform hover:scale-105 duration-300">
+                    <div className="w-16 h-16 md:w-16 md:h-16 flex-shrink-0 bg-white rounded-full p-1 shadow-[0_0_20px_rgba(255,255,255,0.2)] cursor-pointer relative z-50 transition-transform hover:scale-105 duration-300">
                         <a href="#home"><img src="https://res.cloudinary.com/dwlkghuwv/image/upload/q_auto/f_auto/v1777047249/logo_fqoy2c.jpg" alt="logo" className="w-full h-full object-cover rounded-full" /></a>
                     </div>
                 </div>
