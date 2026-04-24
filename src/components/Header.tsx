@@ -12,7 +12,7 @@ const Header = () => {
             {/* Navbar Area */}
             <div className="absolute top-0 left-0 right-0 z-50 border-b border-white/10 bg-black/30 backdrop-blur-md">
                 <div className="container mx-auto px-4 lg:px-8 py-4 flex items-center justify-between">
-                    
+
                     {/* Desktop Menu */}
                     <nav className="hidden md:flex flex-1">
                         <ul className="flex gap-6 lg:gap-10 text-base lg:text-lg font-medium">
@@ -25,7 +25,7 @@ const Header = () => {
                     </nav>
 
                     {/* Mobile Menu Button */}
-                    <button 
+                    <button
                         className="md:hidden flex items-center text-white focus:outline-none hover:text-amber-400 transition-colors"
                         onClick={toggleMenu}
                         aria-label="Toggle Menu"
@@ -41,7 +41,7 @@ const Header = () => {
 
                     {/* Logo */}
                     <div className="w-16 h-16 md:w-24 md:h-24 flex-shrink-0 bg-white rounded-full p-1 shadow-[0_0_20px_rgba(255,255,255,0.2)] cursor-pointer relative z-50 transition-transform hover:scale-105 duration-300">
-                        <a href="#home"><img src="/logo.jpg" alt="logo" className="w-full h-full object-cover rounded-full" /></a>
+                        <a href="#home"><img src="https://res.cloudinary.com/dwlkghuwv/image/upload/q_auto/f_auto/v1777047249/logo_fqoy2c.jpg" alt="logo" className="w-full h-full object-cover rounded-full" /></a>
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@ const Header = () => {
                     </ul>
                 </div>
             </div>
-            
+
             {/* Hero Content Area */}
             <div className="relative z-20 container mx-auto px-4 flex flex-col items-center justify-center h-full text-center pt-20">
                 <span className="text-amber-400 font-bold tracking-wider mb-4 uppercase text-sm md:text-base border border-amber-400/50 rounded-full px-4 py-1 bg-amber-400/10">مطبعة أوفست احترافية</span>
@@ -66,7 +66,7 @@ const Header = () => {
                 <p className="text-lg md:text-xl lg:text-2xl text-gray-200 max-w-3xl mb-10 drop-shadow-md">
                     نقدم لك خدمات طباعة الأوفست والديجيتال بأعلى معايير الدقة والاحترافية لتلبية كافة احتياجاتك التجارية بأفضل الأسعار وأسرع وقت.
                 </p>
-                
+
                 <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
                     <button className="bg-amber-500 hover:bg-amber-600 text-black font-bold text-lg px-8 py-4 rounded-lg shadow-[0_0_15px_rgba(245,158,11,0.5)] transition-all hover:scale-105 duration-300">
                         اطلب عرض سعر
